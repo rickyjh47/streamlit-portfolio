@@ -43,7 +43,7 @@ if page == "🏠 Home":
     st.subheader("About the Author")
     st.write("My name is Patrick Hillgardner, and I am currently a senior pursuing a degree in Aerospace Engineering at the University of Illinois at Urbana-Champaign. "
          "My primary interests include propulsion, hypersonic technologies, and aircraft systems design. "
-         "I am passionate about contributing to the aerospace industry and dedicated to turning my lifelong aspiration to be a successful engineer into reality.")
+         "I am passionate about contributing to the aerospace industry and am dedicated to fulfilling my lifelong aspiration of becoming a successful engineer!")
 
 
 elif page == "🚀 Atlas V-401 Rocket: CAD creation":
