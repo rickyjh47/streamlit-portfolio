@@ -29,7 +29,7 @@ if page == "🏠 Home":
     st.write("**Phone Number**: 516-497-0677")
     st.write("**Email Address**: patrick.hillgarnder@gmail.com")
     st.write("**LinkedIn**: https://www.linkedin.com/in/patrick-hillgardner-854868263/")
-    with open("assets/resume_v5.pdf", "rb") as file:
+    with open("assets/resume_v6.pdf", "rb") as file:
         resume_bytes = file.read()
 
     st.download_button(
