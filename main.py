@@ -41,9 +41,10 @@ if page == "🏠 Home":
     st.write(" ")
     st.image("headshot.jpeg", width=250)
     st.subheader("About the Author")
-    st.write("My name is Patrick Hillgardner and I am a senior in aerospace engineering at the University of Illinois at Urbana-Champaign. "
-    "My interests include propulsion, hypersonics, and engineering systems/aircraft design. "
-    "My dream has been to serve the aerospace industry since I was very young, and I am determined to make that dream a reality!")
+    st.write("My name is Patrick Hillgardner, and I am currently a senior pursuing a degree in Aerospace Engineering at the University of Illinois at Urbana-Champaign. "
+         "My primary interests include propulsion, hypersonic technologies, and aircraft systems design. "
+         "I am passionate about contributing to the aerospace industry and dedicated to turning my lifelong aspiration to be a successful engineer into reality.")
+
 
 elif page == "🚀 Atlas V-401 Rocket: CAD creation":
     st.title("🚀 Atlas V-401 Rocket: CAD creation")
@@ -84,7 +85,7 @@ elif page == "🚀 Atlas V-401 Rocket: CAD creation":
 
 elif page == "🐍 Python Scripts":
     st.title("🐍 Python Scripts")
-    st.write("This page showcaases the Python scripts that I have created over the years.")
+    st.write("This page showcases the Python scripts that I have created over the years.")
     st.write("**naca_4series_geoplotter.py** :  Python script that takes a user-entered 4-digit NACA airfoil and plots the normalized airfoil coordinates.")
     st.write("**hess_smith_panel_method.py** :  Hess-Smith 2D panel method code that takes a defined NACA airfoil anfd angle of attack and computes the lift coefficient, drag coefficient, moment coefficient, and plots the pressure coefficient distribution.")
     st.write("**hess_smith_panel_method_uinputs.py** :  Slightly modified version of the Hess-Smith panel method code that takes a user-entered 4-digit NACA airfoil, angle of attack, and number of panels and returns the resulting lift coefficient, drag coefficient, moment coefficient, and plots the pressure coefficient distribution.")
