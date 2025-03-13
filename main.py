@@ -67,9 +67,7 @@ elif page == "🚀 Atlas V-401 Rocket: CAD creation":
         with cols[idx2 % 2]:
             st.image(f"fixed_images/{img2}", use_container_width=True)
     st.markdown(f"<h8 style='text-align: center;'> Real (left) vs. CAD model (right) exploded view.", unsafe_allow_html=True)
-    
     st.markdown("---")
-
     st.subheader("Download CAD Files")
 
     for cad_file in cad_files:
@@ -86,9 +84,11 @@ elif page == "🚀 Atlas V-401 Rocket: CAD creation":
 elif page == "🐍 Python Scripts":
     st.title("🐍 Python Scripts")
     st.write("This page showcases the Python scripts that I have created over the years.")
+    st.markdown("---")
     st.write("**naca_4series_geoplotter.py** :  Python script that takes a user-entered 4-digit NACA airfoil and plots the normalized airfoil coordinates.")
     st.write("**hess_smith_panel_method.py** :  Hess-Smith 2D panel method code that takes a defined NACA airfoil anfd angle of attack and computes the lift coefficient, drag coefficient, moment coefficient, and plots the pressure coefficient distribution.")
     st.write("**hess_smith_panel_method_uinputs.py** :  Slightly modified version of the Hess-Smith panel method code that takes a user-entered 4-digit NACA airfoil, angle of attack, and number of panels and returns the resulting lift coefficient, drag coefficient, moment coefficient, and plots the pressure coefficient distribution.")
+    st.markdown("---")
     selected_script = st.selectbox("Select a script:", py_files)
     if selected_script:
         with open(f"scripts/{selected_script}", "r") as file:
@@ -101,6 +101,7 @@ elif page == "✈ Scratch-Built RC Drone":
     st.title("✈ Scratch-Built RC Drone")
     st.write("In early January 2025, I created a fully functional remote control drone made entirely out of foam boards- "
     "the control surfaces and motor functions are shown in this video.")
+    st.markdown("---")
     for video in video_files:
         st.video(f"videos/{video}")
 
