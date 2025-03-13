@@ -67,7 +67,7 @@ elif page == "🚀 Atlas V-401 Rocket: CAD creation":
         with cols[idx2 % 2]:
             st.image(f"fixed_images/{img2}", use_container_width=True)
     st.markdown(f"<h8 style='text-align: center;'> CAD model (left) vs. NASA artist's concept (right) exploded view.", unsafe_allow_html=True)
-    st.info("❗️ **Note**: if viewing on a mobile device, the images may not display in correct order ❗️")
+    st.info("❗️ **Note**: if viewing on a mobile device, the images may not display in the correct order ❗️")
     st.markdown("---")
     st.subheader("Download CAD Files")
 
