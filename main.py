@@ -58,13 +58,13 @@ elif page == "🚀 Atlas V-401 Rocket: CAD creation":
     cols = st.columns(2)
     for idx, img in enumerate(cad_images):
         with cols[idx % 2]:
-            st.image(f"images/{img}", use_column_width=True,)
+            st.image(f"images/{img}", use_container_width=True,)
             st.markdown(f"<h8 style='text-align: center;'> CAD model render.", unsafe_allow_html=True)
 
     cols2 = st.columns(2)
     for idx2, img2 in enumerate(fixed_image_files):
         with cols[idx2 % 2]:
-            st.image(f"fixed_images/{img2}", use_column_width=True)
+            st.image(f"fixed_images/{img2}", use_container_width=True)
     st.markdown(f"<h8 style='text-align: center;'> Real (left) vs. CAD model (right) exploded view.", unsafe_allow_html=True)
     
     st.markdown("---")
