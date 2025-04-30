@@ -29,9 +29,9 @@ if page == "🏠 Home":
     st.write("**Phone Number**: 516-497-0677")
     st.write("**Email Address**: patrick.hillgarnder@gmail.com")
     st.write("**LinkedIn**: https://www.linkedin.com/in/patrick-hillgardner-854868263/")
-    with open("assets/resume_v6.pdf", "rb") as file:
+    
+    with open("assets/resume_v7.pdf", "rb") as file:
         resume_bytes = file.read()
-
     st.download_button(
     label="📄 **Download My Resume**",
     data=resume_bytes,
@@ -42,15 +42,15 @@ if page == "🏠 Home":
     st.image("headshot.jpeg", width=250)
     st.subheader("About the Author")
     st.write("My name is Patrick Hillgardner, and I am currently a senior pursuing a degree in Aerospace Engineering at the University of Illinois at Urbana-Champaign. "
-         "My primary interests include propulsion, hypersonic technologies, and aircraft systems design. "
-         "I am passionate about contributing to the aerospace industry and am dedicated to fulfilling my lifelong aspiration of becoming a successful engineer!")
+         "My primary interests include propulsion, hypersonic technologies, and aerospace systems design. "
+         "I am passionate about contributing to the aerospace industry and am dedicated to fulfilling my lifelong aspiration of becoming a successful aerospace engineer!")
 
 
 elif page == "🚀 Atlas V-401 Rocket: CAD creation":
     st.title("🚀 Atlas V-401 Rocket: CAD creation")
     st.write("This project is a to-scale CAD model of the Atlas V-401 rocket created using Siemens NX. ")
     st.info("🚧 **Interactive CAD Viewer Coming Soon!** 🚧\n\n "
-        "Due to the size and complexity of this model, a web-based viewer is currently under development. "
+        "A web-based viewer is currently under development. "
         "You can download the CAD files below to view the model locally. "
         "The .stp file is more compatible with most softwares, whereas the .zip file contains the original NX file and all its components, including the RD-180 engine.")
     st.markdown("---")
